@@ -1,3 +1,20 @@
 // Pseudocode in the view of a hungry customer
 
+hungry_customer
+scan_scan_selection
+pick_snack
+
+if has_enough_money (input snack code)
+     else (scan_scan_selection)
+
+input_snack_code
+snack_dispensed
+
+if change_needed (wait_for_change)
+    else (transaction_completed)
+
+transaction_completed
+happy_customer
+
+
 // Pseudocode in the view of a machine owner
