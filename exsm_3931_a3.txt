@@ -1,20 +1,42 @@
-// Pseudocode in the view of a hungry customer
+// HUNGRY CUSTOMER - Pseudocode
 
 hungry_customer
-scan_scan_selection
+scan_snack_selection
 pick_snack
 
-if has_enough_money (input snack code)
-     else (scan_scan_selection)
+if has_enough_coins
+    input snack code
+else 
+    count_coins
+    scan_snack_selection
 
-input_snack_code
 snack_dispensed
+grab_snack
 
-if change_needed (wait_for_change)
-    else (transaction_completed)
+if change_needed 
+    wait_for_change
+    transaction completed
+else 
+    transaction_completed
 
-transaction_completed
 happy_customer
 
 
-// Pseudocode in the view of a machine owner
+// MACHINE OWNER - Pseudocode
+
+owner_check_machine
+unlock_machine_with_key
+locate_empty_spots
+add_new_snacks
+
+if expired/damaged_snacks_present
+    take_out_expired/damaged_snacks
+    add_new_snacks
+else  
+    empty_out_coin_storage
+    lock_machine
+
+restock_completed
+owner_happy
+    
+
